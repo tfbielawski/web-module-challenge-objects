@@ -62,6 +62,7 @@ export const burger =
     //Compare the strings. If equal to teacher or student
     if (string === "teacher" || string === "student")
     {
+      this.price = 18;
       //Variable to hold the discount, price * 25%
       const discount =  this.price * 0.25;
       //Apply 25% discount using subtraction
@@ -73,6 +74,7 @@ export const burger =
     //Otherwise
     else
     {
+      this.price = 18;
       //Variable to hold the discount, price * 10%
       const discount =  this.price * 0.10;
       //Apply 10% discount using subtraction
